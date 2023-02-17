@@ -1,20 +1,20 @@
  宝塔面板7.7原版安装
 ```Bash
-curl -sSO https://raw.githubusercontent.com/Jiaocha/bt77happy/main/install/install_panel.sh && bash install_panel.sh
+curl -sSO https://raw.githubusercontent.com/so-colorful/bt77happy/main/install/install_panel.sh && bash install_panel.sh
 中转下载
-curl -sSO https://ghproxy.com/https://raw.githubusercontent.com/Jiaocha/bt77happy/main/install/install_panel.sh && bash install_panel.sh
+curl -sSO https://ghproxy.com/https://raw.githubusercontent.com/so-colorful/bt77happy/main/install/install_panel.sh && bash install_panel.sh
 ```
 
  宝塔7.7原版一键开心脚本
 ```Bash
-curl -sSO https://raw.githubusercontent.com/Jiaocha/bt77happy/main/bthappy/one_key_happy.sh && bash one_key_happy.sh
+curl -sSO https://raw.githubusercontent.com/so-colorful/bt77happy/main/bthappy/one_key_happy.sh && bash one_key_happy.sh
 中转下载
-curl -sSO https://ghproxy.com/https://raw.githubusercontent.com/Jiaocha/bt77happy/main/bthappy/one_key_happy.sh && bash one_key_happy.sh
+curl -sSO https://ghproxy.com/https://raw.githubusercontent.com/so-colorful/bt77happy/main/bthappy/one_key_happy.sh && bash one_key_happy.sh
 ```
 
  降级
 ```Bash
-wget https://raw.githubusercontent.com/Jiaocha/bt77happy/main/install/src/LinuxPanel-7.7.0.zip
+wget https://raw.githubusercontent.com/so-colorful/bt77happy/main/install/src/LinuxPanel-7.7.0.zip
 unzip LinuxPanel-*
 cd panel
 bash update.sh
@@ -39,5 +39,5 @@ chattr +i /www/server/panel/data/plugin.json
  宝塔linux工具箱优化脚本
 一键修改宝塔面板模板、去除强制登陆、一键修复面板、一键更换yum源、清除系统垃圾缓存、系统优化等
 ```Bash
-wget -O btpanel_tools.sh https://cdn.jsdelivr.net/gh/Jiaocha/bt77happy@main/btpanel_tools/btpanel_tools.sh && bash btpanel_tools.sh
+wget -O btpanel_tools.sh https://cdn.jsdelivr.net/gh/so-colorful/bt77happy@main/btpanel_tools/btpanel_tools.sh && bash btpanel_tools.sh
 ```
